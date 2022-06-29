@@ -4,8 +4,10 @@
     padding: 0;
 }
 
-header {
+header, 
+footer {
     background-color: #1F2937;
+    font-weight: bold; 
 }
 
 .logo {
@@ -54,4 +56,37 @@ h2 {
     font-size: 16px;
     font-weight: lighter; 
     color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+h3 {
+    font-size: 36px; 
+    font-weight: lighter; 
+    font-style: italic; 
+    color: #1F2937;
+}
+
+.quote p {
+    font-weight: bold; 
+    font-style: none; 
+}
+
+.action {
+    color: #f9faf8; 
+    background-color: #3882f6;
+} 
+
+.action p {
+    color: #e5e7eb;
+}
+
+.call {
+    border: 5px solid #f9faf8;
+}
+
+footer {
+    color: #e5e7eb;
 }
