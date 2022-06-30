@@ -85,6 +85,7 @@ h2 {
     font-size: 14px;
     font-weight: lighter; 
     color: #1F2937;
+    width: 150px;
 }
 
 h2 {
@@ -101,25 +102,31 @@ h2 {
     gap: 32px; 
 }
 
-.information p {
-    width: 125px; 
-    
-}
-
 .quote {
     background-color: #e5e7eb;
+    padding: 120px 0px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.container {
+    width: 760px;
 }
 
 h3 {
-    font-size: 36px; 
+    font-size: 32px; 
     font-weight: lighter; 
     font-style: italic; 
     color: #1F2937;
 }
 
-.quote p {
+.container p {
     font-weight: bold; 
     font-style: none; 
+    text-align: end;  
 }
 
 .action {
